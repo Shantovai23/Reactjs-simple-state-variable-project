@@ -18,13 +18,16 @@
   border-radius: 15px;
 }
 h1{
-  color: white;
+
   background: transparent;
-  background-color: #8566aa;
   padding: 6px 0px 2px 0;
   margin-bottom: 10px;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0,0.3);
+  text-shadow: 2px 2px 4px #000000;
   margin-top: 60px;
+  font-size: 90px;
+  font-weight: 100;
+  font-family: cursive;
+  color: crimson;
 }
 
 
@@ -37,10 +40,11 @@ button{
   color:#fff;
   font-size: 25px;
   border: none;
- outline: none;
- margin-left: 10px;
- box-shadow: 5px 5px 15px -5px rgba(0, 0, 0,0.3);
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0,0.3);
 }
+
 
 button:hover{
   background-color: #20bf6b;
@@ -52,6 +56,12 @@ button:hover{
   display:flex;
   justify-content: space-around;
   align-items: center;
+}
+.btn_green:hover{
+  color: #2ed573;
+}
+.btn_red:hover{
+  color: #ff4757;
 }
 
 
